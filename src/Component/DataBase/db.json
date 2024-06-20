@@ -1,0 +1,12 @@
+{
+    "favourites": [
+        {
+            "id": "1",
+            "city": "hassan"
+        },
+        {
+            "id":"2",
+            "city":"udupi"
+        }
+    ]
+}
