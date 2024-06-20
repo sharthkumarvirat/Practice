@@ -41,7 +41,7 @@ export default function Favoraites({ setSearch }) {
                             <div onClick={() => { setTheCity(ele) }}>
                                 <h1>{ele}</h1>  {/* Assuming 'city' is a property of your data */}
                             </div>
-                            <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg" onClick={() => { handleDelete(ele) }} >Responsive</button>
+                            <button className="btn btn-primary btn-xs sm:btn-sm md:btn-md lg:btn-lg" onClick={() => { handleDelete(ele) }} >Delete</button>
                         </div>
                     )
                 })

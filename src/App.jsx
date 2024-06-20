@@ -28,10 +28,6 @@ function App() {
         <Route path='/fav' element={<Favoraites setSearch={setSearch} />}/>
         </Routes>
       </BrowserRouter> 
-      
-     
-   
-     
     </>
   )
 }
