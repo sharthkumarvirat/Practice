@@ -17,7 +17,7 @@ export default function Favoraites({ setSearch }) {
         let updatedelete = addFav.filter(fav => fav !== ele)
         setAddFav(updatedelete)
         localStorage.setItem("city", JSON.stringify(updatedelete));
-        // console.log(updatedelete);
+        console.log(updatedelete);
     }
     
     // useEffect(() => {
