@@ -14,9 +14,9 @@ export default function Favoraites({ setSearch }) {
     
     const handleDelete = (ele) => {
         
-        // let updatedelete = addFav.filter(fav => fav !== ele)
-        // setAddFav(updatedelete)
-        // localStorage.setItem("city", JSON.stringify(updatedelete));
+        let updatedelete = addFav.filter(fav => fav !== ele)
+        setAddFav(updatedelete)
+        localStorage.setItem("city", JSON.stringify(updatedelete));
         // console.log(updatedelete);
     }
     
